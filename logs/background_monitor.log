@@ -1,0 +1,78 @@
+2025-08-22 19:43:45,133 - INFO - Starting Background Monitor Agent
+2025-08-22 19:43:45,136 - INFO - Log file: E:\clickchain\payroll-agent\logs\background_monitor.log
+2025-08-22 19:43:47,571 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 19:43:47,676 - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-08-22 19:43:48,778 - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-08-22 19:43:48,932 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 19:43:48,942 - INFO - Valid reason detected: sick
+2025-08-22 19:43:50,586 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 19:43:55,157 - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-08-22 19:43:55,500 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 19:44:01,439 - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-08-22 19:44:01,854 - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-08-22 19:44:02,615 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 19:44:07,946 - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-08-22 19:44:10,159 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 19:44:11,497 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 19:44:13,648 - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-08-22 19:44:17,724 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 19:44:19,386 - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-08-22 19:44:21,619 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 19:44:25,136 - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-08-22 19:44:27,457 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 19:44:29,259 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 19:44:29,267 - INFO - Stopping background monitoring...
+2025-08-22 19:44:31,027 - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-08-22 19:44:31,970 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 19:44:31,988 - INFO - Background Monitor Agent stopped
+2025-08-22 19:44:32,453 - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-08-22 19:46:10,157 - INFO - Starting Background Monitor Agent
+2025-08-22 19:46:10,159 - INFO - Log file: E:\clickchain\payroll-agent\logs\background_monitor.log
+2025-08-22 19:46:10,286 - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-08-22 19:46:10,770 - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-08-22 19:46:13,830 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 19:46:16,630 - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-08-22 19:46:32,312 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 19:46:33,009 - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-08-22 19:46:33,778 - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-08-22 19:48:00,066 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 19:48:00,777 - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-08-22 19:48:01,214 - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-08-22 19:48:02,753 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 19:48:04,338 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 19:48:07,283 - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-08-22 19:51:34,309 - INFO - Starting Background Monitor Agent
+2025-08-22 19:51:34,309 - INFO - Log file: E:\clickchain\payroll-agent\logs\background_monitor.log
+2025-08-22 20:04:16,865 - INFO - Starting Background Monitor Agent
+2025-08-22 20:04:16,866 - INFO - Log file: E:\clickchain\payroll-agent\logs\background_monitor.log
+2025-08-22 20:04:26,302 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 20:04:26,473 - INFO - Valid reason detected: sick
+2025-08-22 20:04:26,835 - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-08-22 20:04:28,157 - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-08-22 20:04:29,121 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 20:04:29,133 - INFO - Valid reason detected: sick
+2025-08-22 20:04:32,471 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 20:04:32,484 - INFO - Valid reason detected: sick
+2025-08-22 20:04:34,291 - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-08-22 20:04:36,751 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 20:04:36,763 - INFO - Valid reason detected: sick
+2025-08-22 20:04:40,430 - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-08-22 20:05:41,724 - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-08-22 20:05:48,117 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 20:05:48,136 - INFO - Valid reason detected: sick
+2025-08-22 20:05:52,844 - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-08-22 20:14:05,176 - INFO - Starting Background Monitor Agent
+2025-08-22 20:14:05,176 - INFO - Log file: E:\clickchain\payroll-agent\logs\background_monitor.log
+2025-08-22 20:14:07,731 - INFO - [NOTIFICATION] New email reply from abdulrehman
+2025-08-22 20:14:13,824 - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-08-22 20:14:14,748 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 20:14:15,044 - INFO - Valid reason detected: sick
+2025-08-22 20:14:20,122 - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-08-22 20:21:34,295 - INFO - [NOTIFICATION] New email reply from abdulrehman
+2025-08-22 20:22:08,107 - INFO - Starting Background Monitor Agent
+2025-08-22 20:22:08,108 - INFO - Log file: E:\clickchain\payroll-agent\logs\background_monitor.log
+2025-08-22 20:23:13,825 - INFO - [NOTIFICATION] New email reply from abdulrehman
+2025-08-22 20:23:20,214 - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-08-22 20:23:24,494 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 20:23:24,550 - INFO - Valid reason detected: sick
+2025-08-22 20:23:26,441 - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"

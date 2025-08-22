@@ -6,6 +6,8 @@ from typing import Optional
 from agents import Runner
 
 from src.agents.simple_agent import create_payroll_agent
+from src.agents.employee_engagement_agent import EmployeeEngagementAgent
+from src.agents.background_monitor_agent import create_background_monitor_agent
 from src.config import settings
 
 
@@ -15,6 +17,9 @@ class PayrollAgentSystem:
     def __init__(self):
         """Initialize the payroll agent system."""
         self.agent = create_payroll_agent()
+        self.engagement_agent = EmployeeEngagementAgent()
+        self.engagement_agent_instance = self.engagement_agent.create_agent()
+        self.background_monitor_agent = create_background_monitor_agent()
         self.runner = Runner()
     
     async def process_request(self, user_input: str) -> str:
@@ -48,6 +53,11 @@ class PayrollAgentSystem:
         print("- 'analyze': Analyze timesheets for anomalies")
         print("- 'pending': List all pending timesheets")
         print("- 'send email': Send notifications to employees with pending timesheets")
+        print("- 'start background monitor': Start continuous background monitoring")
+        print("- 'get monitor logs': Check background monitor logs")
+        print("- 'get monitor status': Check background monitor status")
+        print("- 'check replies': Check employee email replies")
+        print("- 'engagement status': Get employee engagement status")
         print("- 'exit': Exit the system")
         print("\nOr describe what you want to do in natural language.")
         print("=" * 60)
@@ -68,7 +78,17 @@ class PayrollAgentSystem:
                 
                 # Process the request using agentic approach
                 print("\n🤖 Processing your request...")
-                response = await self.process_request(user_input)
+                
+                # Route to appropriate agent based on keywords
+                if any(keyword in user_input.lower() for keyword in ['monitor', 'background', 'log', 'status']):
+                    response = await self.runner.run(self.background_monitor_agent, user_input)
+                    response = response.final_output if response.final_output else "Task completed successfully."
+                elif any(keyword in user_input.lower() for keyword in ['reply', 'replies', 'engagement', 'validate', 'followup']):
+                    response = await self.runner.run(self.engagement_agent_instance, user_input)
+                    response = response.final_output if response.final_output else "Task completed successfully."
+                else:
+                    response = await self.process_request(user_input)
+                
                 print(f"\n{response}")
                 
             except KeyboardInterrupt:
